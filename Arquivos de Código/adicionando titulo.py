@@ -1,0 +1,8 @@
+arquivo = open('Castemere.txt')
+conteudo = arquivo.readlines()
+arquivo.close()
+conteudo.insert(0, 'Chuvas de Castemere\n\n')
+arquivo = open('Castemere.txt', 'w')
+conteudo = "".join(conteudo)
+arquivo.write(conteudo)
+arquivo.close()
