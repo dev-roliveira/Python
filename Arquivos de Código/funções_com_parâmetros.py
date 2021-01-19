@@ -77,4 +77,4 @@ def soma_impares(numero):
 
 
 lista = [1, 2, 3, 4, 5, 6, 7]
-# print(soma_impares(lista))
+print(soma_impares(lista))
