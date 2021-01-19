@@ -1,7 +1,7 @@
 from tkinter import *
+from Usuarios import Usuarios
 
-
-class Application:
+class Crud:
     def __init__(self, master=None):
         self.fontePadrao = ("Arial", "10")
         self.dados_do_usuario = Frame(master)
@@ -57,13 +57,13 @@ class Application:
         usuario = self.nome.get()
         senha = self.senha.get()
         if usuario == "admin" and senha == "admin":
-            self.mensagem["text"] = "Autenticado"
+            Application()
         else:
             self.mensagem["text"] = "Erro na autenticacao"
 
 
 root = Tk()
-Application(root)
+Crud(root)
 root.geometry('500x200')
 root.resizable(width=0, height=0)
 root.mainloop()
