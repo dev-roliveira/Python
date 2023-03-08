@@ -1,6 +1,4 @@
-# Projeto CRUD
+# CRUD Project
+Development of a CRUD with SQLite and Tkinter GUI.
 
-Elaboração de Plataforma CRUD em Python com SQLite e GUI em Tkinter.
-
-A plataforma permite a criação, leitura, atualização e remoção de dados do Banco de Dados através de interface simples e
-de fácil utilização.
+This CRUD can Create, Read, Update and Delete data from Database using a simple interface
