@@ -1,2 +1,2 @@
 # Python
-Repositório de Códigos para uso como exemplo e projetos de autoria própria.
+Code repository with my material of study about python
